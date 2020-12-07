@@ -1,0 +1,12 @@
+.columns {
+  display: flex;
+}
+
+.columns > * {
+  flex-basis: 100%;
+}
+
+.split-evenly {
+  display: flex;
+  justify-content: space-between;
+}

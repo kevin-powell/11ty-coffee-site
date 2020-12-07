@@ -1,0 +1,28 @@
+.main-header {
+  background: var(--clr-secondary-700);
+  padding-block: 1rem;
+}
+ 
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+
+  li {
+    margin-inline-start: 1em;
+  }
+
+  a {
+    color: var(--clr-neutral-100);
+    font-family: var(--ff-accent);
+    text-decoration: none;
+    font-size: .9rem;
+
+    &:hover,
+    &:focus {
+      color: var(--clr-primary-300);
+    }
+  }
+}
+

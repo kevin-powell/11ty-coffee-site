@@ -1,0 +1,42 @@
+body {
+  font-family: var(--ff-body);
+  color: var(--clr-neutral-900);
+  line-height: 1.6;
+  font-size: 1.25rem;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--ff-heading);
+  line-height: 1.1;
+  color: var(--clr-seconary-700);
+}
+
+h1, .h1 {
+  font-size: 3.75rem;
+}
+
+h2, .h2 {
+  font-size: 3rem;
+}
+
+h3, .h3 {
+  font-size: 1.5rem;
+}
+
